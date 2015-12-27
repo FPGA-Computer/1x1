@@ -2841,9 +2841,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="143.002" y="179.324" size="1.778" layer="91">Install if
 not using
 crystal.</text>
-<text x="112.522" y="132.842" size="1.778" layer="91">Optional
+<text x="109.982" y="132.842" size="1.778" layer="91">Optional
 I2C Pullup</text>
-<text x="76.2" y="45.72" size="1.778" layer="91">3.4V to 5.5V</text>
+<text x="73.66" y="45.72" size="1.778" layer="91">3.4V to 5.5V</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="223.52" y="149.86">
@@ -2854,7 +2854,7 @@ I2C Pullup</text>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="320.04" y="142.24"/>
 <instance part="SUPPLY2" gate="GND" x="248.92" y="121.92"/>
-<instance part="SUPPLY3" gate="+3.3V" x="134.62" y="66.04"/>
+<instance part="SUPPLY3" gate="+3.3V" x="132.08" y="66.04"/>
 <instance part="SUPPLY4" gate="+3.3V" x="284.48" y="144.78" smashed="yes">
 <attribute name="VALUE" x="282.575" y="147.955" size="1.778" layer="96"/>
 </instance>
@@ -2875,18 +2875,18 @@ I2C Pullup</text>
 <instance part="SUPPLY7" gate="+3.3V" x="289.56" y="223.52" smashed="yes">
 <attribute name="VALUE" x="287.655" y="226.695" size="1.778" layer="96"/>
 </instance>
-<instance part="U3" gate="G$1" x="121.92" y="60.96">
-<attribute name="PARTNO" x="121.92" y="60.96" size="1.778" layer="96" display="off"/>
+<instance part="U3" gate="G$1" x="119.38" y="60.96">
+<attribute name="PARTNO" x="119.38" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY8" gate="GND" x="121.92" y="50.8"/>
-<instance part="C2" gate="G$1" x="134.62" y="53.34" rot="R90">
-<attribute name="PARTNO" x="134.62" y="53.34" size="1.778" layer="96" display="off"/>
+<instance part="SUPPLY8" gate="GND" x="119.38" y="50.8"/>
+<instance part="C2" gate="G$1" x="132.08" y="53.34" rot="R90">
+<attribute name="PARTNO" x="132.08" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY9" gate="GND" x="134.62" y="45.72"/>
-<instance part="C3" gate="G$1" x="109.22" y="53.34" rot="R90">
-<attribute name="PARTNO" x="109.22" y="53.34" size="1.778" layer="96" display="off"/>
+<instance part="SUPPLY9" gate="GND" x="132.08" y="45.72"/>
+<instance part="C3" gate="G$1" x="106.68" y="53.34" rot="R90">
+<attribute name="PARTNO" x="106.68" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY10" gate="GND" x="109.22" y="45.72"/>
+<instance part="SUPPLY10" gate="GND" x="106.68" y="45.72"/>
 <instance part="C4" gate="G$1" x="195.58" y="190.5" rot="R90">
 <attribute name="PARTNO" x="195.58" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
@@ -2916,25 +2916,25 @@ I2C Pullup</text>
 <attribute name="PARTNO" x="198.12" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY16" gate="GND" x="198.12" y="104.14"/>
-<instance part="J2" gate="A" x="78.74" y="96.52" rot="MR0">
-<attribute name="PARTNO" x="78.74" y="96.52" size="1.778" layer="96" display="off"/>
+<instance part="J2" gate="A" x="76.2" y="96.52" rot="MR0">
+<attribute name="PARTNO" x="76.2" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C8" gate="G$1" x="289.56" y="132.08" rot="R90">
 <attribute name="PARTNO" x="289.56" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY17" gate="GND" x="289.56" y="124.46"/>
-<instance part="J1" gate="A" x="78.74" y="154.94" rot="MR0">
-<attribute name="PARTNO" x="78.74" y="154.94" size="1.778" layer="96" display="off"/>
+<instance part="J1" gate="A" x="76.2" y="154.94" rot="MR0">
+<attribute name="PARTNO" x="76.2" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY18" gate="GND" x="91.44" y="142.24"/>
-<instance part="SUPPLY19" gate="+3.3V" x="88.9" y="167.64"/>
+<instance part="SUPPLY18" gate="GND" x="88.9" y="142.24"/>
+<instance part="SUPPLY19" gate="+3.3V" x="86.36" y="167.64"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="325.12" y="0"/>
 <instance part="L1" gate="G$1" x="190.5" y="121.92" rot="MR0">
 <attribute name="PARTNO" x="190.5" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY13" gate="GND" x="88.9" y="76.2"/>
-<instance part="SUPPLY20" gate="+3.3V" x="88.9" y="114.3"/>
+<instance part="SUPPLY13" gate="GND" x="86.36" y="76.2"/>
+<instance part="SUPPLY20" gate="+3.3V" x="86.36" y="114.3"/>
 <instance part="SUPPLY21" gate="+3.3V" x="322.58" y="210.82" smashed="yes">
 <attribute name="VALUE" x="320.675" y="213.995" size="1.778" layer="96"/>
 </instance>
@@ -2942,18 +2942,18 @@ I2C Pullup</text>
 <instance part="C9" gate="G$1" x="322.58" y="203.2" rot="R90">
 <attribute name="PARTNO" x="322.58" y="203.2" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY23" gate="+3.3V" x="116.84" y="124.46"/>
-<instance part="R6" gate="G$1" x="116.84" y="116.84" rot="MR270">
-<attribute name="PARTNO" x="116.84" y="116.84" size="1.778" layer="96" display="off"/>
+<instance part="SUPPLY23" gate="+3.3V" x="114.3" y="124.46"/>
+<instance part="R6" gate="G$1" x="114.3" y="116.84" rot="MR270">
+<attribute name="PARTNO" x="114.3" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R7" gate="G$1" x="124.46" y="116.84" rot="MR270">
-<attribute name="PARTNO" x="124.46" y="116.84" size="1.778" layer="96" display="off"/>
+<instance part="R7" gate="G$1" x="121.92" y="116.84" rot="MR270">
+<attribute name="PARTNO" x="121.92" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY24" gate="+3.3V" x="124.46" y="124.46"/>
-<instance part="J3" gate="G$1" x="78.74" y="58.42" rot="MR0">
-<attribute name="PARTNO" x="78.74" y="58.42" size="1.778" layer="96" display="off"/>
+<instance part="SUPPLY24" gate="+3.3V" x="121.92" y="124.46"/>
+<instance part="J3" gate="G$1" x="76.2" y="58.42" rot="MR0">
+<attribute name="PARTNO" x="76.2" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY25" gate="GND" x="88.9" y="53.34"/>
+<instance part="SUPPLY25" gate="GND" x="86.36" y="53.34"/>
 <instance part="!RES" gate="G$1" x="180.34" y="86.36" rot="R270">
 <attribute name="PARTNO" x="180.34" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
@@ -2977,8 +2977,8 @@ I2C Pullup</text>
 <label x="248.92" y="172.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="81.28" y1="93.98" x2="104.14" y2="93.98" width="0.1524" layer="91"/>
-<label x="93.98" y="93.98" size="1.778" layer="95"/>
+<wire x1="78.74" y1="93.98" x2="101.6" y2="93.98" width="0.1524" layer="91"/>
+<label x="91.44" y="93.98" size="1.778" layer="95"/>
 <pinref part="J2" gate="A" pin="6"/>
 </segment>
 </net>
@@ -2996,12 +2996,12 @@ I2C Pullup</text>
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="+3.3V" pin="+3.3V"/>
-<wire x1="134.62" y1="63.5" x2="134.62" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="63.5" x2="132.08" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="VO"/>
-<wire x1="132.08" y1="60.96" x2="134.62" y2="60.96" width="0.1524" layer="91"/>
-<junction x="134.62" y="60.96"/>
+<wire x1="129.54" y1="60.96" x2="132.08" y2="60.96" width="0.1524" layer="91"/>
+<junction x="132.08" y="60.96"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="58.42" x2="134.62" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="58.42" x2="132.08" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VDD"/>
@@ -3027,14 +3027,14 @@ I2C Pullup</text>
 <segment>
 <pinref part="J1" gate="A" pin="4"/>
 <pinref part="SUPPLY19" gate="+3.3V" pin="+3.3V"/>
-<wire x1="81.28" y1="154.94" x2="88.9" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="154.94" x2="88.9" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="154.94" x2="86.36" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="154.94" x2="86.36" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY20" gate="+3.3V" pin="+3.3V"/>
-<wire x1="88.9" y1="111.76" x2="88.9" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="111.76" x2="86.36" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="J2" gate="A" pin="7"/>
-<wire x1="88.9" y1="91.44" x2="81.28" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY21" gate="+3.3V" pin="+3.3V"/>
@@ -3124,8 +3124,8 @@ I2C Pullup</text>
 <segment>
 <pinref part="J1" gate="A" pin="2"/>
 <pinref part="SUPPLY18" gate="GND" pin="GND"/>
-<wire x1="81.28" y1="160.02" x2="91.44" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="160.02" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="160.02" x2="88.9" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="160.02" x2="88.9" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="1"/>
@@ -3134,40 +3134,40 @@ I2C Pullup</text>
 <segment>
 <pinref part="J2" gate="A" pin="9"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
-<wire x1="81.28" y1="86.36" x2="88.9" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="86.36" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="86.36" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="86.36" x2="86.36" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="2"/>
 <pinref part="SUPPLY25" gate="GND" pin="GND"/>
-<wire x1="81.28" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="58.42" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="58.42" x2="86.36" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="58.42" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA14/SWCLK"/>
-<label x="93.98" y="162.56" size="1.778" layer="95"/>
+<label x="91.44" y="162.56" size="1.778" layer="95"/>
 <pinref part="J1" gate="A" pin="1"/>
-<wire x1="200.66" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="162.56" x2="78.74" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA13/SWDIO"/>
-<label x="93.98" y="157.48" size="1.778" layer="95"/>
+<label x="91.44" y="157.48" size="1.778" layer="95"/>
 <pinref part="J1" gate="A" pin="3"/>
-<wire x1="200.66" y1="157.48" x2="81.28" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="157.48" x2="78.74" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="VI"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="60.96" x2="109.22" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="60.96" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="60.96" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
-<junction x="109.22" y="60.96"/>
+<wire x1="109.22" y1="60.96" x2="106.68" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="60.96" x2="106.68" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="60.96" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
+<junction x="106.68" y="60.96"/>
 <pinref part="J3" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -3215,30 +3215,30 @@ I2C Pullup</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="PA10/SDA"/>
 <label x="187.96" y="152.4" size="1.778" layer="95"/>
-<wire x1="200.66" y1="152.4" x2="132.08" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="152.4" x2="132.08" y2="104.14" width="0.1524" layer="91"/>
-<label x="93.98" y="104.14" size="1.778" layer="95"/>
+<wire x1="200.66" y1="152.4" x2="129.54" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="152.4" x2="129.54" y2="104.14" width="0.1524" layer="91"/>
+<label x="91.44" y="104.14" size="1.778" layer="95"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="104.14" x2="124.46" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="104.14" x2="121.92" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="J2" gate="A" pin="2"/>
-<wire x1="81.28" y1="104.14" x2="124.46" y2="104.14" width="0.1524" layer="91"/>
-<junction x="124.46" y="104.14"/>
-<wire x1="132.08" y1="104.14" x2="124.46" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="104.14" x2="121.92" y2="104.14" width="0.1524" layer="91"/>
+<junction x="121.92" y="104.14"/>
+<wire x1="129.54" y1="104.14" x2="121.92" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PA9_SCL" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA9/SCL"/>
 <label x="187.96" y="147.32" size="1.778" layer="95"/>
-<wire x1="200.66" y1="147.32" x2="134.62" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="147.32" x2="134.62" y2="106.68" width="0.1524" layer="91"/>
-<label x="93.98" y="106.68" size="1.778" layer="95"/>
+<wire x1="200.66" y1="147.32" x2="132.08" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="147.32" x2="132.08" y2="106.68" width="0.1524" layer="91"/>
+<label x="91.44" y="106.68" size="1.778" layer="95"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="111.76" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="106.68" x2="134.62" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="111.76" x2="114.3" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="106.68" x2="132.08" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="J2" gate="A" pin="1"/>
-<wire x1="81.28" y1="106.68" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
-<junction x="116.84" y="106.68"/>
+<wire x1="78.74" y1="106.68" x2="114.3" y2="106.68" width="0.1524" layer="91"/>
+<junction x="114.3" y="106.68"/>
 </segment>
 </net>
 <net name="IRQ" class="0">
@@ -3304,11 +3304,11 @@ I2C Pullup</text>
 <net name="PF0" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="147.32" y1="167.64" x2="139.7" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="167.64" x2="139.7" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="167.64" x2="137.16" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="167.64" x2="137.16" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="J2" gate="A" pin="3"/>
-<wire x1="139.7" y1="101.6" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
-<label x="93.98" y="101.6" size="1.778" layer="95"/>
+<wire x1="137.16" y1="101.6" x2="78.74" y2="101.6" width="0.1524" layer="91"/>
+<label x="91.44" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -3325,11 +3325,11 @@ I2C Pullup</text>
 <net name="PF1" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="172.72" x2="137.16" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="99.06" x2="137.16" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="172.72" x2="134.62" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="99.06" x2="134.62" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="J2" gate="A" pin="4"/>
-<wire x1="137.16" y1="99.06" x2="81.28" y2="99.06" width="0.1524" layer="91"/>
-<label x="93.98" y="99.06" size="1.778" layer="95"/>
+<wire x1="134.62" y1="99.06" x2="78.74" y2="99.06" width="0.1524" layer="91"/>
+<label x="91.44" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -3349,16 +3349,16 @@ I2C Pullup</text>
 <wire x1="208.28" y1="203.2" x2="160.02" y2="203.2" width="0.1524" layer="91" style="shortdash"/>
 </segment>
 <segment>
-<wire x1="157.48" y1="177.8" x2="157.48" y2="160.02" width="0.1524" layer="91" style="shortdash"/>
-<wire x1="157.48" y1="160.02" x2="142.24" y2="160.02" width="0.1524" layer="91" style="shortdash"/>
-<wire x1="142.24" y1="160.02" x2="142.24" y2="177.8" width="0.1524" layer="91" style="shortdash"/>
-<wire x1="142.24" y1="177.8" x2="157.48" y2="177.8" width="0.1524" layer="91" style="shortdash"/>
+<wire x1="160.02" y1="177.8" x2="160.02" y2="160.02" width="0.1524" layer="91" style="shortdash"/>
+<wire x1="160.02" y1="160.02" x2="139.7" y2="160.02" width="0.1524" layer="91" style="shortdash"/>
+<wire x1="139.7" y1="160.02" x2="139.7" y2="177.8" width="0.1524" layer="91" style="shortdash"/>
+<wire x1="139.7" y1="177.8" x2="160.02" y2="177.8" width="0.1524" layer="91" style="shortdash"/>
 </segment>
 <segment>
-<wire x1="111.76" y1="109.474" x2="130.556" y2="109.474" width="0.1524" layer="91" style="shortdash"/>
-<wire x1="130.556" y1="109.474" x2="130.556" y2="130.81" width="0.1524" layer="91" style="shortdash"/>
-<wire x1="130.556" y1="130.81" x2="111.76" y2="130.81" width="0.1524" layer="91" style="shortdash"/>
-<wire x1="111.76" y1="130.81" x2="111.76" y2="109.474" width="0.1524" layer="91" style="shortdash"/>
+<wire x1="109.22" y1="109.474" x2="128.016" y2="109.474" width="0.1524" layer="91" style="shortdash"/>
+<wire x1="128.016" y1="109.474" x2="128.016" y2="130.81" width="0.1524" layer="91" style="shortdash"/>
+<wire x1="128.016" y1="130.81" x2="109.22" y2="130.81" width="0.1524" layer="91" style="shortdash"/>
+<wire x1="109.22" y1="130.81" x2="109.22" y2="109.474" width="0.1524" layer="91" style="shortdash"/>
 </segment>
 </net>
 <net name="PA6_MISO" class="0">
@@ -3374,8 +3374,8 @@ I2C Pullup</text>
 <label x="248.92" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="81.28" y1="83.82" x2="104.14" y2="83.82" width="0.1524" layer="91"/>
-<label x="93.98" y="83.82" size="1.778" layer="95"/>
+<wire x1="78.74" y1="83.82" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
+<label x="91.44" y="83.82" size="1.778" layer="95"/>
 <pinref part="J2" gate="A" pin="10"/>
 </segment>
 </net>
@@ -3392,8 +3392,8 @@ I2C Pullup</text>
 <label x="248.92" y="162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="81.28" y1="88.9" x2="104.14" y2="88.9" width="0.1524" layer="91"/>
-<label x="93.98" y="88.9" size="1.778" layer="95"/>
+<wire x1="78.74" y1="88.9" x2="101.6" y2="88.9" width="0.1524" layer="91"/>
+<label x="91.44" y="88.9" size="1.778" layer="95"/>
 <pinref part="J2" gate="A" pin="8"/>
 </segment>
 </net>
@@ -3411,8 +3411,8 @@ I2C Pullup</text>
 <label x="248.92" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="81.28" y1="96.52" x2="104.14" y2="96.52" width="0.1524" layer="91"/>
-<label x="93.98" y="96.52" size="1.778" layer="95"/>
+<wire x1="78.74" y1="96.52" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
+<label x="91.44" y="96.52" size="1.778" layer="95"/>
 <pinref part="J2" gate="A" pin="5"/>
 </segment>
 </net>
@@ -3423,9 +3423,9 @@ I2C Pullup</text>
 <label x="248.92" y="152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="93.98" y="149.86" size="1.778" layer="95"/>
+<label x="91.44" y="149.86" size="1.778" layer="95"/>
 <pinref part="J1" gate="A" pin="6"/>
-<wire x1="81.28" y1="149.86" x2="106.68" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="149.86" x2="104.14" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PA2_TXD" class="0">
@@ -3435,9 +3435,9 @@ I2C Pullup</text>
 <label x="248.92" y="147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="93.98" y="152.4" size="1.778" layer="95"/>
+<label x="91.44" y="152.4" size="1.778" layer="95"/>
 <pinref part="J1" gate="A" pin="5"/>
-<wire x1="81.28" y1="152.4" x2="106.68" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="152.4" x2="104.14" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
